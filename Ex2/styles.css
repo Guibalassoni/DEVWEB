@@ -1,0 +1,42 @@
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #f5f5f5;
+  }
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  .form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    background-color: #428bca;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-primary:hover {
+    background-color: #3071a9;
+  }
+ 
+  #resultado {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+  }
