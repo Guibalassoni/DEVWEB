@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3e8e41;
+}
+
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+/* Adiciona uma sombra suave ao botão */
+.btn-primary {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Torna o resultado mais destacado com uma borda */
+#resultado {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
